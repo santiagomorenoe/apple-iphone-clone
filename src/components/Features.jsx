@@ -5,6 +5,8 @@ import { explore1Img, explore2Img, exploreVideo } from '../utils';
 import { useRef } from "react";
 import gsap from 'gsap';
 
+gsap.registerPlugin(useGSAP);
+
 const Features = () => {
 
     const videoRef = useRef();

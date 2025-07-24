@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react'
 import { heroVideo, smallHeroVideo } from '../utils';
 
+gsap.registerPlugin(useGSAP);
 
 const Hero = () => {
 
